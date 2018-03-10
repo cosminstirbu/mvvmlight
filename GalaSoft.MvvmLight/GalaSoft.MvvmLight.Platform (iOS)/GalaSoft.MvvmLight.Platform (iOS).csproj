@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{DE2FB1EC-A248-4980-A5E3-6835231D84CD}</ProjectGuid>
@@ -89,8 +89,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GalaSoft.MvvmLight %28PCL%29\GalaSoft.MvvmLight %28PCL%29.csproj">
-      <Project>{6a912701-3ba1-4975-adbf-160caf66b640}</Project>
-      <Name>GalaSoft.MvvmLight %28PCL%29</Name>
+      <Project>{6A912701-3BA1-4975-ADBF-160CAF66B640}</Project>
+      <Name>GalaSoft.MvvmLight (PCL)</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
